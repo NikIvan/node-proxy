@@ -1,0 +1,23 @@
+{
+  "name": "node-proxy",
+  "version": "1.0.0",
+  "main": "server.js",
+  "description": "Two node servers. One of them work as a proxy",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikIvan/node-proxy.git"
+  },
+  "keywords": [
+    "Node.js"
+  ],
+  "author": "NikIvan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikIvan/node-proxy/issues"
+  },
+  "homepage": "https://github.com/NikIvan/node-proxy#readme"
+}
