@@ -2,8 +2,6 @@ const http = require('http');
 const CONST = require('../config/constants.js');
 
 const proxy = http.createServer((req, res) => {
-	console.log('Got proxy request');
-
 	switch(req.method) {
 	case CONST.requestType.POST:
 		require('./routes/post.js')(req, res);

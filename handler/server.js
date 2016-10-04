@@ -1,5 +1,4 @@
 const http = require('http');
-const url = require('url');
 const CONST = require('../config/constants.js');
 
 const handler = http.createServer((req, res) => {
